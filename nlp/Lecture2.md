@@ -117,6 +117,26 @@ V个词 每个词是d dimension？
 
 V个词，做center和做context的时候，所以是2V
 
+change out parameters these vectors 
+
+so minimize the negative likelihood 
+
+and maximize the probability we predict 
+
+![1541077816875](Lecture2.assets/1541077816875.png)
+
+上面那个j取某一个数的时候，去掉log特例成下面的图
+
+![1541077397614](Lecture2.assets/1541077397614.png)
+
+$log(P(o|c))$=...
+
+$\frac{\alpha}{\alpha v_c}log( P(o|c))$=
+
+![1541078108423](Lecture2.assets/1541078108423.png)
+
+$u_0 - \sum\limits_{x=1}^{v}p(x|c)$
+
 
 
 Loss function review
